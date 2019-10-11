@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lasssilveriktkhk/public_html/htmlcss/1110
+    - /bin/cp -R * $DEPLOYPATH
